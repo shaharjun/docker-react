@@ -9,5 +9,6 @@ before_install:
 
 language: generic
 
+# Add comment to trigger build
 script:
   - docker run -e CI=true arjunshah/docker-react npm run test
